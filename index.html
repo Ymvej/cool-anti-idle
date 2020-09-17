@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Anti-Idle Prototype</title>
+        <meta name="description" content="Anti-Idle Prototype">
+        <meta name="author" content="SitePoint">
+        
+        <link rel="stylesheet" type="text/css" href="interface.css" />
+
+    </head>
+
+    <body>
+        <p>You currently have <span id='antiEnergy'>0</span> Anti-Energy.</p>
+        <p>You currently have <span id='energy'>0</span> Energy.</p>
+        <p>You have reset <span id='resets'>0</span> times. Next reset at <span id='resetThreshold'>200</span> Anti-Energy.</p>
+        <button type="button", onClick="antiEnergyClick(1)">Slow down Anti-Energy generation</button>
+        <button type="button", onClick="energyClick(1)">Generate Energy</button><br \><br \><br \><br \>
+
+        Engines: <span id="engines">0</span><br \>
+        Cost: <span id="engineCost">10</span><br \>
+        <button type="button", onClick="buyEngine()">Buy one engine</button>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+
+</html>
